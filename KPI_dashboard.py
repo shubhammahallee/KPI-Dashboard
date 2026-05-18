@@ -79,4 +79,4 @@ if uploaded_file is not None:
             st.plotly_chart(fig_hist, use_container_width=True)
 
 else:
-    st.info("💡 Please upload a CSV file via the sidebar to get started.")
+    st.info("💡 Please upload a CSV file via the sidebar to get started.") 
