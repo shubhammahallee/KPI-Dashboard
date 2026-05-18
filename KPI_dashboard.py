@@ -62,7 +62,7 @@ if uploaded_file is not None:
         st.divider()
 
         # 6. Interactive Charts
-        st.subheader("📊 Visual Insights")
+        st.subheader("📊 Visual Insights") 
         
         tab1, tab2, tab3 = st.tabs(["Line Chart", "Bar Chart", "Distribution"])
 
