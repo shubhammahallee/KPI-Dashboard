@@ -46,7 +46,7 @@ if uploaded_file is not None:
         selected_col = st.sidebar.selectbox("Select Numeric Column for KPIs", numeric_columns)
         
         # 4. KPI Calculation
-        total_sum = df[selected_col].sum()
+        total_sum = df[selected_col].sum() 
         avg_val = df[selected_col].mean()
         max_val = df[selected_col].max()
         min_val = df[selected_col].min()
