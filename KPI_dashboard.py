@@ -6,7 +6,7 @@ import plotly.express as px
 st.set_page_config(page_title="CSV KPI Dashboard", layout="wide")
 
 # Background styling 
-st.markdown(
+st.markdown( 
     """
     <style>
     .stApp {
