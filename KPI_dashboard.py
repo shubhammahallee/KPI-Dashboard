@@ -47,7 +47,7 @@ if uploaded_file is not None:
         
         # 4. KPI Calculation
         total_sum = df[selected_col].sum() 
-        avg_val = df[selected_col].mean()
+        avg_val = df[selected_col].mean() 
         max_val = df[selected_col].max()
         min_val = df[selected_col].min()
 
