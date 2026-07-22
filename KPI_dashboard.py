@@ -64,7 +64,7 @@ if uploaded_file is not None:
         # 6. Interactive Charts
         st.subheader("📊 Visual Insights") 
         
-        tab1, tab2, tab3 = st.tabs(["Line Chart", "Bar Chart", "Distribution"])
+        tab1, tab2, tab3 = st.tabs(["Line Chart", "Bar Chart", "Distribution"])  
 
         with tab1:
             fig_line = px.line(df, y=selected_col, title=f"{selected_col} Trend Over Rows")
