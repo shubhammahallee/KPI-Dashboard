@@ -11,7 +11,7 @@ st.markdown(
     <style>
     .stApp {
         background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413");
-        background-size: cover;
+        background-size: cover;  
         background-position: center;
         background-repeat: no-repeat;
     }
