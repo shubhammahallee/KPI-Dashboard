@@ -27,7 +27,7 @@ st.markdown("Upload a CSV file to instantly generate key metrics and visual insi
 # 1. File Upload
 uploaded_file = st.sidebar.file_uploader("Upload your CSV file", type="csv")
 
-if uploaded_file is not None:
+if uploaded_file is not None: 
     # Read Data
     df = pd.read_csv(uploaded_file)
     
