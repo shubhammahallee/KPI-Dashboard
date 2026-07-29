@@ -43,7 +43,7 @@ if uploaded_file is not None:
     else:
         # 3. User Selection
         st.sidebar.header("Dashboard Settings")
-        selected_col = st.sidebar.selectbox("Select Numeric Column for KPIs", numeric_columns)
+        selected_col = st.sidebar.selectbox("Select Numeric Column for KPIs", numeric_columns) 
         
         # 4. KPI Calculation
         total_sum = df[selected_col].sum() 
