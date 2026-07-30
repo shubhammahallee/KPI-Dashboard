@@ -68,7 +68,7 @@ if uploaded_file is not None:
 
         with tab1:
             fig_line = px.line(df, y=selected_col, title=f"{selected_col} Trend Over Rows")
-            st.plotly_chart(fig_line, use_container_width=True)
+            st.plotly_chart(fig_line, use_container_width=True) 
 
         with tab2:
             fig_bar = px.bar(df, y=selected_col, title=f"{selected_col} Bar Comparison")
