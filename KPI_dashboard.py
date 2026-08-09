@@ -8,7 +8,7 @@ st.set_page_config(page_title="CSV KPI Dashboard", layout="wide")
 # Background styling  
 st.markdown( 
     """
-    <style>
+    <style> 
     .stApp {
         background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413");
         background-size: cover;  
