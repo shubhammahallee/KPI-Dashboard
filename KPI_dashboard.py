@@ -34,7 +34,7 @@ if uploaded_file is not None:
     # 2. Data Validation & Preview
     with st.expander("👀 View Raw Data Preview"):
         st.dataframe(df.head()) 
-
+ 
     # Filter for numeric columns
     numeric_columns = df.select_dtypes(include=['number']).columns.tolist()
 
