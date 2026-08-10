@@ -72,7 +72,7 @@ if uploaded_file is not None:
 
         with tab2:
             fig_bar = px.bar(df, y=selected_col, title=f"{selected_col} Bar Comparison")
-            st.plotly_chart(fig_bar, use_container_width=True) 
+            st.plotly_chart(fig_bar, use_container_width=True)  
 
         with tab3:
             fig_hist = px.histogram(df, x=selected_col, title=f"Distribution of {selected_col}", nbins=20)
